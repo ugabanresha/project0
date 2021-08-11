@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <style type="text/css">
+        .form-control
+        {
+            font-size: 9px;
+            margin-bottom: -4px;
+        
+        }
+        .comment
+        {
+            font-size: 11px;
+            margin-bottom: 25px;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="row mt-1 ml-3">
+            <a href="index.html"><img src="images/google.png" class="float-left" style="width: 80px; "></a>
+        </div>
+        <div class="row ml-5 mt-4">
+            <p class="float-left" style="color: red; font-size: 20px; ">Advanced Search</p>
+
+        </div>
+
+        <hr>
+        <div class="container-fluid">
+            <div class="row ml-5 mt-4 ">
+                <div class="col-sm-3"><p> Find pages with . . . </p>
+
+                </div>
+                <div class="col-sm-5"><p> </p>
+
+                 </div>
+
+                 <div class="col-sm-4"><p> To do in a search box</p>
+
+                 </div>
+
+            <div>
+        </div>
+             <div class="container-fluid">
+                <form action="https://google.com/search" name="f">
+                <div class="row">
+                    <div class="col-sm-3 mb-3">
+                        <p>All these words:</p>
+                        <p>this exact word or phrase:</p>
+                        <p>any of these words:</p>
+                        <p>none of these words:</p>
+                        <p>numbers ranging from:</p>
+                    </div>
+                     <div class="col-sm-5">
+                        <p><input type="text" class="form-control" name="as_q"></p>
+                        <p><input type="text" class="form-control" name="as_epq"></p>
+                        <p><input type="text" class="form-control" name="as_oq"></p>
+                        <p><input type="text" class="form-control" name="as_eq"></p>
+                        <div class="row">
+                          
+                                <span class="col-sm"><input type="text" class="form-control" value=""  name="as_nlo"></span>
+                                <span class="seperator">to</span>
+                                <span class="col-sm"><input type="text" class="form-control"  value=""  name="as_nhi"></span>
+                         </div>
+                        
+                     </div>
+                      <div class="col-sm-4">
+                        <p class="comment">Type the important words: tri-colour rat terrier</p>
+                        <p class="comment">Put exact words in quotes: "rat terrier"</p>
+                        <p class="comment">Type OR between all the words you want: miniature OR standard</p>
+                        <p class="comment">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</p>
+                        <p class="comment">Put two full stops between the numbers and add a unit of measurement: 10..35 kg, £300..£500, 2010..2011</p>
+                     </div>
+
+                 
+                      <div class="col-sm-3">
+                      
+                       
+                    </div>
+                     <div class="col-sm-5">
+                         <input type="submit" class="btn btn-primary mb-3 float-right" value="Advanced Search">
+    
+                     </div>
+                      <div class="col-sm-4">
+                       
+                     </div>
+
+                 </div>
+
+             <div>
+               
+                   </form>
+    </body>
+</html>
